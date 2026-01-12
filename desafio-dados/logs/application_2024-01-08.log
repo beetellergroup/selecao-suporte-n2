@@ -1,0 +1,358 @@
+[2024-01-08T00:00:12.345Z] INFO: Server started on port 3000
+[2024-01-08T00:00:12.456Z] INFO: Database connection pool initialized with 10 connections
+[2024-01-08T00:00:12.567Z] INFO: Redis cache connected successfully
+[2024-01-08T00:05:23.123Z] INFO: Payment request received - ID: PAY-2024-000501
+[2024-01-08T00:05:23.234Z] INFO: Processing payment method: credit_card
+[2024-01-08T00:05:23.456Z] INFO: Payment processed successfully - ID: PAY-2024-000501
+[2024-01-08T00:12:45.789Z] INFO: Payment request received - ID: PAY-2024-000502
+[2024-01-08T00:12:45.890Z] INFO: Processing payment method: pix
+[2024-01-08T00:12:46.012Z] INFO: Payment processed successfully - ID: PAY-2024-000502
+[2024-01-08T01:23:34.567Z] INFO: Health check endpoint accessed
+[2024-01-08T02:15:12.890Z] INFO: Payment request received - ID: PAY-2024-000503
+[2024-01-08T02:15:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-08T02:15:13.456Z] INFO: Payment processed successfully - ID: PAY-2024-000503
+[2024-01-08T03:45:23.789Z] WARN: Slow query detected - query took 320ms
+[2024-01-08T04:12:34.012Z] INFO: Payment request received - ID: PAY-2024-000504
+[2024-01-08T04:12:34.234Z] INFO: Processing payment method: debit_card
+[2024-01-08T04:12:34.567Z] INFO: Payment processed successfully - ID: PAY-2024-000504
+[2024-01-08T05:30:45.890Z] INFO: Scheduled job executed - cleanup_expired_sessions
+[2024-01-08T06:15:12.123Z] INFO: Payment request received - ID: PAY-2024-000505
+[2024-01-08T06:15:12.345Z] INFO: Processing payment method: credit_card
+[2024-01-08T06:15:12.678Z] INFO: Payment processed successfully - ID: PAY-2024-000505
+[2024-01-08T07:22:34.901Z] WARN: Connection pool usage at 70% - 7/10 connections active
+[2024-01-08T08:10:23.234Z] INFO: Payment request received - ID: PAY-2024-000506
+[2024-01-08T08:10:23.456Z] INFO: Processing payment method: pix
+[2024-01-08T08:10:23.789Z] INFO: Payment processed successfully - ID: PAY-2024-000506
+[2024-01-08T09:45:12.012Z] INFO: Payment request received - ID: PAY-2024-000507
+[2024-01-08T09:45:12.345Z] INFO: Processing payment method: credit_card
+[2024-01-08T09:45:12.678Z] INFO: Payment processed successfully - ID: PAY-2024-000507
+[2024-01-08T10:30:45.890Z] INFO: Health check endpoint accessed
+[2024-01-08T11:15:23.123Z] INFO: Payment request received - ID: PAY-2024-000508
+[2024-01-08T11:15:23.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T11:15:23.789Z] INFO: Payment processed successfully - ID: PAY-2024-000508
+[2024-01-08T12:00:12.234Z] WARN: Slow query detected - query took 280ms
+[2024-01-08T12:45:34.567Z] INFO: Payment request received - ID: PAY-2024-000509
+[2024-01-08T12:45:34.890Z] INFO: Processing payment method: debit_card
+[2024-01-08T12:45:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-000509
+[2024-01-08T13:20:45.456Z] INFO: Payment request received - ID: PAY-2024-000510
+[2024-01-08T13:20:45.789Z] INFO: Processing payment method: credit_card
+[2024-01-08T13:20:46.012Z] INFO: Payment processed successfully - ID: PAY-2024-000510
+[2024-01-08T13:45:23.234Z] WARN: Connection pool usage at 75% - 7.5/10 connections active
+[2024-01-08T14:00:12.567Z] INFO: Payment request received - ID: PAY-2024-000511
+[2024-01-08T14:00:12.890Z] INFO: Processing payment method: pix
+[2024-01-08T14:00:13.123Z] INFO: Payment processed successfully - ID: PAY-2024-000511
+[2024-01-08T14:10:34.456Z] INFO: Payment request received - ID: PAY-2024-000512
+[2024-01-08T14:10:34.789Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:10:35.012Z] INFO: Payment processed successfully - ID: PAY-2024-000512
+[2024-01-08T14:15:23.234Z] INFO: Payment request received - ID: PAY-2024-000513
+[2024-01-08T14:15:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:15:24.890Z] WARN: Database query took longer than expected - 250ms
+[2024-01-08T14:15:25.123Z] INFO: Payment processed successfully - ID: PAY-2024-000513
+[2024-01-08T14:20:45.456Z] INFO: Payment request received - ID: PAY-2024-000514
+[2024-01-08T14:20:45.789Z] INFO: Processing payment method: debit_card
+[2024-01-08T14:20:46.234Z] WARN: Database query took longer than expected - 240ms
+[2024-01-08T14:20:46.567Z] INFO: Payment processed successfully - ID: PAY-2024-000514
+[2024-01-08T14:23:12.890Z] INFO: Payment request received - ID: PAY-2024-000515
+[2024-01-08T14:23:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:23:13.456Z] WARN: Database query took longer than expected - 230ms
+[2024-01-08T14:23:13.789Z] INFO: Payment processed successfully - ID: PAY-2024-000515
+[2024-01-08T14:25:34.012Z] WARN: Connection pool usage at 80% - 8/10 connections active
+[2024-01-08T14:26:45.234Z] INFO: Payment request received - ID: PAY-2024-000516
+[2024-01-08T14:26:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:26:45.890Z] WARN: Database query took longer than expected - 220ms
+[2024-01-08T14:26:46.123Z] INFO: Payment processed successfully - ID: PAY-2024-000516
+[2024-01-08T14:28:12.456Z] INFO: Payment request received - ID: PAY-2024-000517
+[2024-01-08T14:28:12.789Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:28:13.012Z] WARN: Database query took longer than expected - 210ms
+[2024-01-08T14:28:13.345Z] INFO: Payment processed successfully - ID: PAY-2024-000517
+[2024-01-08T14:30:23.678Z] WARN: Connection pool usage at 85% - 8.5/10 connections active
+[2024-01-08T14:30:45.901Z] INFO: Payment request received - ID: PAY-2024-000518
+[2024-01-08T14:30:46.234Z] INFO: Processing payment method: debit_card
+[2024-01-08T14:30:46.567Z] WARN: Database query took longer than expected - 200ms
+[2024-01-08T14:30:46.890Z] INFO: Payment processed successfully - ID: PAY-2024-000518
+[2024-01-08T14:32:12.123Z] INFO: Payment request received - ID: PAY-2024-000519
+[2024-01-08T14:32:12.456Z] INFO: Processing payment method: pix
+[2024-01-08T14:32:12.789Z] WARN: Database query took longer than expected - 190ms
+[2024-01-08T14:32:13.012Z] INFO: Payment processed successfully - ID: PAY-2024-000519
+[2024-01-08T14:35:23.345Z] WARN: High latency detected - p95 latency: 280ms
+[2024-01-08T14:36:45.678Z] INFO: Payment request received - ID: PAY-2024-000520
+[2024-01-08T14:36:46.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:36:46.234Z] WARN: Database query took longer than expected - 180ms
+[2024-01-08T14:36:46.567Z] INFO: Payment processed successfully - ID: PAY-2024-000520
+[2024-01-08T14:38:12.890Z] INFO: Payment request received - ID: PAY-2024-000521
+[2024-01-08T14:38:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:38:13.456Z] WARN: Database query took longer than expected - 170ms
+[2024-01-08T14:38:13.789Z] INFO: Payment processed successfully - ID: PAY-2024-000521
+[2024-01-08T14:40:34.012Z] WARN: Connection pool usage at 90% - 9/10 connections active
+[2024-01-08T14:42:23.234Z] INFO: Payment request received - ID: PAY-2024-000522
+[2024-01-08T14:42:23.567Z] INFO: Processing payment method: debit_card
+[2024-01-08T14:42:23.890Z] WARN: Database query took longer than expected - 160ms
+[2024-01-08T14:42:24.123Z] INFO: Payment processed successfully - ID: PAY-2024-000522
+[2024-01-08T14:45:12.456Z] INFO: Payment request received - ID: PAY-2024-000523
+[2024-01-08T14:45:12.789Z] INFO: Processing payment method: pix
+[2024-01-08T14:45:13.012Z] WARN: Database query took longer than expected - 150ms
+[2024-01-08T14:45:13.345Z] INFO: Payment processed successfully - ID: PAY-2024-000523
+[2024-01-08T14:48:34.678Z] WARN: Error rate at 2% - within normal threshold
+[2024-01-08T14:50:23.901Z] INFO: Payment request received - ID: PAY-2024-000524
+[2024-01-08T14:50:24.234Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:50:24.567Z] WARN: Database query took longer than expected - 140ms
+[2024-01-08T14:50:24.890Z] INFO: Payment processed successfully - ID: PAY-2024-000524
+[2024-01-08T14:52:12.123Z] INFO: Payment request received - ID: PAY-2024-000525
+[2024-01-08T14:52:12.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T14:52:12.789Z] WARN: Database query took longer than expected - 130ms
+[2024-01-08T14:52:13.012Z] INFO: Payment processed successfully - ID: PAY-2024-000525
+[2024-01-08T14:55:34.345Z] WARN: Connection pool usage at 85% - 8.5/10 connections active
+[2024-01-08T14:58:23.678Z] INFO: Payment request received - ID: PAY-2024-000526
+[2024-01-08T14:58:24.012Z] INFO: Processing payment method: debit_card
+[2024-01-08T14:58:24.234Z] WARN: Database query took longer than expected - 120ms
+[2024-01-08T14:58:24.567Z] INFO: Payment processed successfully - ID: PAY-2024-000526
+[2024-01-08T15:00:45.890Z] INFO: Payment request received - ID: PAY-2024-000527
+[2024-01-08T15:00:46.123Z] INFO: Processing payment method: pix
+[2024-01-08T15:00:46.456Z] WARN: Database query took longer than expected - 110ms
+[2024-01-08T15:00:46.789Z] INFO: Payment processed successfully - ID: PAY-2024-000527
+[2024-01-08T15:05:12.012Z] WARN: High latency detected - p95 latency: 250ms
+[2024-01-08T15:10:34.234Z] INFO: Payment request received - ID: PAY-2024-000528
+[2024-01-08T15:10:34.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T15:10:34.890Z] WARN: Database query took longer than expected - 100ms
+[2024-01-08T15:10:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-000528
+[2024-01-08T15:15:23.456Z] INFO: Payment request received - ID: PAY-2024-000529
+[2024-01-08T15:15:23.789Z] INFO: Processing payment method: credit_card
+[2024-01-08T15:15:24.012Z] WARN: Database query took longer than expected - 90ms
+[2024-01-08T15:15:24.345Z] INFO: Payment processed successfully - ID: PAY-2024-000529
+[2024-01-08T15:20:45.678Z] WARN: Error rate at 1.5% - within normal threshold
+[2024-01-08T15:25:12.901Z] INFO: Payment request received - ID: PAY-2024-000530
+[2024-01-08T15:25:13.234Z] INFO: Processing payment method: debit_card
+[2024-01-08T15:25:13.567Z] WARN: Database query took longer than expected - 80ms
+[2024-01-08T15:25:13.890Z] INFO: Payment processed successfully - ID: PAY-2024-000530
+[2024-01-08T15:30:34.123Z] INFO: Payment request received - ID: PAY-2024-000531
+[2024-01-08T15:30:34.456Z] INFO: Processing payment method: pix
+[2024-01-08T15:30:34.789Z] WARN: Database query took longer than expected - 70ms
+[2024-01-08T15:30:35.012Z] INFO: Payment processed successfully - ID: PAY-2024-000531
+[2024-01-08T15:35:23.345Z] WARN: Connection pool usage at 80% - 8/10 connections active
+[2024-01-08T15:40:12.678Z] INFO: Payment request received - ID: PAY-2024-000532
+[2024-01-08T15:40:12.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T15:40:13.234Z] WARN: Database query took longer than expected - 60ms
+[2024-01-08T15:40:13.567Z] INFO: Payment processed successfully - ID: PAY-2024-000532
+[2024-01-08T15:45:34.890Z] WARN: High latency detected - p95 latency: 200ms
+[2024-01-08T15:50:23.123Z] INFO: Payment request received - ID: PAY-2024-000533
+[2024-01-08T15:50:23.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T15:50:23.789Z] WARN: Database query took longer than expected - 50ms
+[2024-01-08T15:50:24.012Z] INFO: Payment processed successfully - ID: PAY-2024-000533
+[2024-01-08T15:55:12.345Z] INFO: Payment request received - ID: PAY-2024-000534
+[2024-01-08T15:55:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T15:55:12.901Z] WARN: Database query took longer than expected - 40ms
+[2024-01-08T15:55:13.234Z] INFO: Payment processed successfully - ID: PAY-2024-000534
+[2024-01-08T16:00:45.567Z] WARN: Error rate at 1% - within normal threshold
+[2024-01-08T16:05:34.890Z] INFO: Payment request received - ID: PAY-2024-000535
+[2024-01-08T16:05:35.123Z] INFO: Processing payment method: pix
+[2024-01-08T16:05:35.456Z] WARN: Database query took longer than expected - 30ms
+[2024-01-08T16:05:35.789Z] INFO: Payment processed successfully - ID: PAY-2024-000535
+[2024-01-08T16:10:23.012Z] INFO: Payment request received - ID: PAY-2024-000536
+[2024-01-08T16:10:23.345Z] INFO: Processing payment method: credit_card
+[2024-01-08T16:10:23.678Z] WARN: Database query took longer than expected - 25ms
+[2024-01-08T16:10:23.901Z] INFO: Payment processed successfully - ID: PAY-2024-000536
+[2024-01-08T16:15:12.234Z] WARN: High latency detected - p95 latency: 180ms
+[2024-01-08T16:20:45.567Z] INFO: Payment request received - ID: PAY-2024-000537
+[2024-01-08T16:20:45.890Z] INFO: Processing payment method: credit_card
+[2024-01-08T16:20:46.123Z] WARN: Database query took longer than expected - 20ms
+[2024-01-08T16:20:46.456Z] INFO: Payment processed successfully - ID: PAY-2024-000537
+[2024-01-08T16:25:34.789Z] WARN: Connection pool usage at 75% - 7.5/10 connections active
+[2024-01-08T16:30:23.012Z] INFO: Payment request received - ID: PAY-2024-000538
+[2024-01-08T16:30:23.345Z] INFO: Processing payment method: pix
+[2024-01-08T16:30:23.678Z] WARN: Database query took longer than expected - 15ms
+[2024-01-08T16:30:23.901Z] INFO: Payment processed successfully - ID: PAY-2024-000538
+[2024-01-08T16:35:12.234Z] WARN: High latency detected - p95 latency: 170ms
+[2024-01-08T16:40:45.567Z] INFO: Payment request received - ID: PAY-2024-000539
+[2024-01-08T16:40:45.890Z] INFO: Processing payment method: credit_card
+[2024-01-08T16:40:46.123Z] WARN: Database query took longer than expected - 10ms
+[2024-01-08T16:40:46.456Z] INFO: Payment processed successfully - ID: PAY-2024-000539
+[2024-01-08T16:45:34.789Z] INFO: Payment request received - ID: PAY-2024-000540
+[2024-01-08T16:45:35.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T16:45:35.345Z] WARN: Database query took longer than expected - 5ms
+[2024-01-08T16:45:35.678Z] INFO: Payment processed successfully - ID: PAY-2024-000540
+[2024-01-08T16:50:23.901Z] WARN: Error rate at 0.8% - within normal threshold
+[2024-01-08T16:55:12.123Z] INFO: Payment request received - ID: PAY-2024-000541
+[2024-01-08T16:55:12.456Z] INFO: Processing payment method: debit_card
+[2024-01-08T16:55:12.789Z] INFO: Payment processed successfully - ID: PAY-2024-000541
+[2024-01-08T17:00:45.012Z] WARN: High latency detected - p95 latency: 150ms
+[2024-01-08T17:05:34.345Z] INFO: Payment request received - ID: PAY-2024-000542
+[2024-01-08T17:05:34.678Z] INFO: Processing payment method: pix
+[2024-01-08T17:05:34.901Z] INFO: Payment processed successfully - ID: PAY-2024-000542
+[2024-01-08T17:10:23.234Z] INFO: Payment request received - ID: PAY-2024-000543
+[2024-01-08T17:10:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T17:10:23.890Z] INFO: Payment processed successfully - ID: PAY-2024-000543
+[2024-01-08T17:15:12.123Z] WARN: Connection pool usage at 70% - 7/10 connections active
+[2024-01-08T17:20:45.456Z] INFO: Payment request received - ID: PAY-2024-000544
+[2024-01-08T17:20:45.789Z] INFO: Processing payment method: credit_card
+[2024-01-08T17:20:46.012Z] INFO: Payment processed successfully - ID: PAY-2024-000544
+[2024-01-08T17:25:34.345Z] WARN: High latency detected - p95 latency: 140ms
+[2024-01-08T17:30:23.678Z] INFO: Payment request received - ID: PAY-2024-000545
+[2024-01-08T17:30:23.901Z] INFO: Processing payment method: debit_card
+[2024-01-08T17:30:24.234Z] INFO: Payment processed successfully - ID: PAY-2024-000545
+[2024-01-08T17:35:12.567Z] INFO: Payment request received - ID: PAY-2024-000546
+[2024-01-08T17:35:12.890Z] INFO: Processing payment method: pix
+[2024-01-08T17:35:13.123Z] INFO: Payment processed successfully - ID: PAY-2024-000546
+[2024-01-08T17:40:45.456Z] WARN: Error rate at 0.5% - within normal threshold
+[2024-01-08T17:45:34.789Z] INFO: Payment request received - ID: PAY-2024-000547
+[2024-01-08T17:45:35.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T17:45:35.345Z] INFO: Payment processed successfully - ID: PAY-2024-000547
+[2024-01-08T17:50:23.678Z] WARN: High latency detected - p95 latency: 130ms
+[2024-01-08T17:55:12.901Z] INFO: Payment request received - ID: PAY-2024-000548
+[2024-01-08T17:55:13.234Z] INFO: Processing payment method: credit_card
+[2024-01-08T17:55:13.567Z] INFO: Payment processed successfully - ID: PAY-2024-000548
+[2024-01-08T18:00:45.890Z] INFO: Payment request received - ID: PAY-2024-000549
+[2024-01-08T18:00:46.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T18:00:46.456Z] INFO: Payment processed successfully - ID: PAY-2024-000549
+[2024-01-08T18:05:34.789Z] WARN: Connection pool usage at 65% - 6.5/10 connections active
+[2024-01-08T18:10:23.012Z] INFO: Payment request received - ID: PAY-2024-000550
+[2024-01-08T18:10:23.345Z] INFO: Processing payment method: pix
+[2024-01-08T18:10:23.678Z] INFO: Payment processed successfully - ID: PAY-2024-000550
+[2024-01-08T18:15:12.901Z] WARN: High latency detected - p95 latency: 120ms
+[2024-01-08T18:20:45.234Z] INFO: Payment request received - ID: PAY-2024-000551
+[2024-01-08T18:20:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T18:20:45.890Z] INFO: Payment processed successfully - ID: PAY-2024-000551
+[2024-01-08T18:25:34.123Z] INFO: Payment request received - ID: PAY-2024-000552
+[2024-01-08T18:25:34.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T18:25:34.789Z] INFO: Payment processed successfully - ID: PAY-2024-000552
+[2024-01-08T18:30:23.012Z] WARN: Error rate at 0.3% - within normal threshold
+[2024-01-08T18:35:12.345Z] INFO: Payment request received - ID: PAY-2024-000553
+[2024-01-08T18:35:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T18:35:12.901Z] INFO: Payment processed successfully - ID: PAY-2024-000553
+[2024-01-08T18:40:45.234Z] WARN: Connection pool usage at 60% - 6/10 connections active
+[2024-01-08T18:45:34.567Z] INFO: Payment request received - ID: PAY-2024-000554
+[2024-01-08T18:45:34.890Z] INFO: Processing payment method: pix
+[2024-01-08T18:45:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-000554
+[2024-01-08T18:50:23.456Z] WARN: High latency detected - p95 latency: 110ms
+[2024-01-08T18:55:12.789Z] INFO: Payment request received - ID: PAY-2024-000555
+[2024-01-08T18:55:13.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T18:55:13.345Z] INFO: Payment processed successfully - ID: PAY-2024-000555
+[2024-01-08T19:00:45.678Z] INFO: Payment request received - ID: PAY-2024-000556
+[2024-01-08T19:00:45.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T19:00:46.234Z] INFO: Payment processed successfully - ID: PAY-2024-000556
+[2024-01-08T19:05:34.567Z] WARN: Error rate at 0.2% - within normal threshold
+[2024-01-08T19:10:23.890Z] INFO: Payment request received - ID: PAY-2024-000557
+[2024-01-08T19:10:24.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T19:10:24.456Z] INFO: Payment processed successfully - ID: PAY-2024-000557
+[2024-01-08T19:15:12.789Z] WARN: Connection pool usage at 55% - 5.5/10 connections active
+[2024-01-08T19:20:45.012Z] INFO: Payment request received - ID: PAY-2024-000558
+[2024-01-08T19:20:45.345Z] INFO: Processing payment method: pix
+[2024-01-08T19:20:45.678Z] INFO: Payment processed successfully - ID: PAY-2024-000558
+[2024-01-08T19:25:34.901Z] WARN: High latency detected - p95 latency: 100ms
+[2024-01-08T19:30:23.234Z] INFO: Payment request received - ID: PAY-2024-000559
+[2024-01-08T19:30:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T19:30:23.890Z] INFO: Payment processed successfully - ID: PAY-2024-000559
+[2024-01-08T19:35:12.123Z] INFO: Payment request received - ID: PAY-2024-000560
+[2024-01-08T19:35:12.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T19:35:12.789Z] INFO: Payment processed successfully - ID: PAY-2024-000560
+[2024-01-08T19:40:45.012Z] WARN: Error rate at 0.1% - within normal threshold
+[2024-01-08T19:45:34.345Z] INFO: Payment request received - ID: PAY-2024-000561
+[2024-01-08T19:45:34.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T19:45:34.901Z] INFO: Payment processed successfully - ID: PAY-2024-000561
+[2024-01-08T19:50:23.234Z] WARN: Connection pool usage at 50% - 5/10 connections active
+[2024-01-08T19:55:12.567Z] INFO: Payment request received - ID: PAY-2024-000562
+[2024-01-08T19:55:12.890Z] INFO: Processing payment method: pix
+[2024-01-08T19:55:13.123Z] INFO: Payment processed successfully - ID: PAY-2024-000562
+[2024-01-08T20:00:45.456Z] WARN: High latency detected - p95 latency: 95ms
+[2024-01-08T20:05:34.789Z] INFO: Payment request received - ID: PAY-2024-000563
+[2024-01-08T20:05:35.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T20:05:35.345Z] INFO: Payment processed successfully - ID: PAY-2024-000563
+[2024-01-08T20:10:23.678Z] INFO: Payment request received - ID: PAY-2024-000564
+[2024-01-08T20:10:23.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T20:10:24.234Z] INFO: Payment processed successfully - ID: PAY-2024-000564
+[2024-01-08T20:15:12.567Z] WARN: Error rate at 0.05% - within normal threshold
+[2024-01-08T20:20:45.890Z] INFO: Payment request received - ID: PAY-2024-000565
+[2024-01-08T20:20:46.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T20:20:46.456Z] INFO: Payment processed successfully - ID: PAY-2024-000565
+[2024-01-08T20:25:34.789Z] WARN: Connection pool usage at 45% - 4.5/10 connections active
+[2024-01-08T20:30:23.012Z] INFO: Payment request received - ID: PAY-2024-000566
+[2024-01-08T20:30:23.345Z] INFO: Processing payment method: pix
+[2024-01-08T20:30:23.678Z] INFO: Payment processed successfully - ID: PAY-2024-000566
+[2024-01-08T20:35:12.901Z] WARN: High latency detected - p95 latency: 90ms
+[2024-01-08T20:40:45.234Z] INFO: Payment request received - ID: PAY-2024-000567
+[2024-01-08T20:40:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T20:40:45.890Z] INFO: Payment processed successfully - ID: PAY-2024-000567
+[2024-01-08T20:45:34.123Z] INFO: Payment request received - ID: PAY-2024-000568
+[2024-01-08T20:45:34.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T20:45:34.789Z] INFO: Payment processed successfully - ID: PAY-2024-000568
+[2024-01-08T20:50:23.012Z] WARN: Error rate at 0.02% - within normal threshold
+[2024-01-08T20:55:12.345Z] INFO: Payment request received - ID: PAY-2024-000569
+[2024-01-08T20:55:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T20:55:12.901Z] INFO: Payment processed successfully - ID: PAY-2024-000569
+[2024-01-08T21:00:45.234Z] WARN: Connection pool usage at 40% - 4/10 connections active
+[2024-01-08T21:05:34.567Z] INFO: Payment request received - ID: PAY-2024-000570
+[2024-01-08T21:05:34.890Z] INFO: Processing payment method: pix
+[2024-01-08T21:05:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-000570
+[2024-01-08T21:10:23.456Z] WARN: High latency detected - p95 latency: 85ms
+[2024-01-08T21:15:12.789Z] INFO: Payment request received - ID: PAY-2024-000571
+[2024-01-08T21:15:13.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T21:15:13.345Z] INFO: Payment processed successfully - ID: PAY-2024-000571
+[2024-01-08T21:20:45.678Z] INFO: Payment request received - ID: PAY-2024-000572
+[2024-01-08T21:20:45.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T21:20:46.234Z] INFO: Payment processed successfully - ID: PAY-2024-000572
+[2024-01-08T21:25:34.567Z] WARN: Error rate at 0.01% - within normal threshold
+[2024-01-08T21:30:23.890Z] INFO: Payment request received - ID: PAY-2024-000573
+[2024-01-08T21:30:24.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T21:30:24.456Z] INFO: Payment processed successfully - ID: PAY-2024-000573
+[2024-01-08T21:35:12.789Z] WARN: Connection pool usage at 35% - 3.5/10 connections active
+[2024-01-08T21:40:45.012Z] INFO: Payment request received - ID: PAY-2024-000574
+[2024-01-08T21:40:45.345Z] INFO: Processing payment method: pix
+[2024-01-08T21:40:45.678Z] INFO: Payment processed successfully - ID: PAY-2024-000574
+[2024-01-08T21:45:34.901Z] WARN: High latency detected - p95 latency: 80ms
+[2024-01-08T21:50:23.234Z] INFO: Payment request received - ID: PAY-2024-000575
+[2024-01-08T21:50:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T21:50:23.890Z] INFO: Payment processed successfully - ID: PAY-2024-000575
+[2024-01-08T21:55:12.123Z] INFO: Payment request received - ID: PAY-2024-000576
+[2024-01-08T21:55:12.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T21:55:12.789Z] INFO: Payment processed successfully - ID: PAY-2024-000576
+[2024-01-08T22:00:45.012Z] WARN: Error rate at 0% - within normal threshold
+[2024-01-08T22:05:34.345Z] INFO: Payment request received - ID: PAY-2024-000577
+[2024-01-08T22:05:34.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T22:05:34.901Z] INFO: Payment processed successfully - ID: PAY-2024-000577
+[2024-01-08T22:10:23.234Z] WARN: Connection pool usage at 30% - 3/10 connections active
+[2024-01-08T22:15:12.567Z] INFO: Payment request received - ID: PAY-2024-000578
+[2024-01-08T22:15:12.890Z] INFO: Processing payment method: pix
+[2024-01-08T22:15:13.123Z] INFO: Payment processed successfully - ID: PAY-2024-000578
+[2024-01-08T22:20:45.456Z] WARN: High latency detected - p95 latency: 75ms
+[2024-01-08T22:25:34.789Z] INFO: Payment request received - ID: PAY-2024-000579
+[2024-01-08T22:25:35.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T22:25:35.345Z] INFO: Payment processed successfully - ID: PAY-2024-000579
+[2024-01-08T22:30:23.678Z] INFO: Payment request received - ID: PAY-2024-000580
+[2024-01-08T22:30:23.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T22:30:24.234Z] INFO: Payment processed successfully - ID: PAY-2024-000580
+[2024-01-08T22:35:12.567Z] WARN: Error rate at 0% - within normal threshold
+[2024-01-08T22:40:45.890Z] INFO: Payment request received - ID: PAY-2024-000581
+[2024-01-08T22:40:46.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T22:40:46.456Z] INFO: Payment processed successfully - ID: PAY-2024-000581
+[2024-01-08T22:45:34.789Z] WARN: Connection pool usage at 25% - 2.5/10 connections active
+[2024-01-08T22:50:23.012Z] INFO: Payment request received - ID: PAY-2024-000582
+[2024-01-08T22:50:23.345Z] INFO: Processing payment method: pix
+[2024-01-08T22:50:23.678Z] INFO: Payment processed successfully - ID: PAY-2024-000582
+[2024-01-08T22:55:12.901Z] WARN: High latency detected - p95 latency: 70ms
+[2024-01-08T23:00:45.234Z] INFO: Payment request received - ID: PAY-2024-000583
+[2024-01-08T23:00:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-08T23:00:45.890Z] INFO: Payment processed successfully - ID: PAY-2024-000583
+[2024-01-08T23:05:34.123Z] INFO: Payment request received - ID: PAY-2024-000584
+[2024-01-08T23:05:34.456Z] INFO: Processing payment method: credit_card
+[2024-01-08T23:05:34.789Z] INFO: Payment processed successfully - ID: PAY-2024-000584
+[2024-01-08T23:10:23.012Z] WARN: Error rate at 0% - within normal threshold
+[2024-01-08T23:15:12.345Z] INFO: Payment request received - ID: PAY-2024-000585
+[2024-01-08T23:15:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-08T23:15:12.901Z] INFO: Payment processed successfully - ID: PAY-2024-000585
+[2024-01-08T23:20:45.234Z] WARN: Connection pool usage at 20% - 2/10 connections active
+[2024-01-08T23:25:34.567Z] INFO: Payment request received - ID: PAY-2024-000586
+[2024-01-08T23:25:34.890Z] INFO: Processing payment method: pix
+[2024-01-08T23:25:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-000586
+[2024-01-08T23:30:23.456Z] WARN: High latency detected - p95 latency: 65ms
+[2024-01-08T23:35:12.789Z] INFO: Payment request received - ID: PAY-2024-000587
+[2024-01-08T23:35:13.012Z] INFO: Processing payment method: credit_card
+[2024-01-08T23:35:13.345Z] INFO: Payment processed successfully - ID: PAY-2024-000587
+[2024-01-08T23:40:45.678Z] INFO: Payment request received - ID: PAY-2024-000588
+[2024-01-08T23:40:45.901Z] INFO: Processing payment method: credit_card
+[2024-01-08T23:40:46.234Z] INFO: Payment processed successfully - ID: PAY-2024-000588
+[2024-01-08T23:45:34.567Z] WARN: Error rate at 0% - within normal threshold
+[2024-01-08T23:50:23.890Z] INFO: Payment request received - ID: PAY-2024-000589
+[2024-01-08T23:50:24.123Z] INFO: Processing payment method: debit_card
+[2024-01-08T23:50:24.456Z] INFO: Payment processed successfully - ID: PAY-2024-000589
+[2024-01-08T23:55:12.789Z] WARN: Connection pool usage at 15% - 1.5/10 connections active
+[2024-01-08T23:59:59.012Z] INFO: Daily summary - Total payments processed: 89, Success rate: 100%, Avg latency: 120ms
+

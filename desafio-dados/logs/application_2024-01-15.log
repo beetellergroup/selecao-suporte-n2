@@ -1,0 +1,422 @@
+[2024-01-15T00:00:12.345Z] INFO: Server started on port 3000
+[2024-01-15T00:00:12.456Z] INFO: Database connection pool initialized with 10 connections
+[2024-01-15T00:00:12.567Z] INFO: Redis cache connected successfully
+[2024-01-15T00:05:23.123Z] INFO: Payment request received - ID: PAY-2024-001234
+[2024-01-15T00:05:23.234Z] INFO: Processing payment method: credit_card
+[2024-01-15T00:05:23.456Z] INFO: Payment processed successfully - ID: PAY-2024-001234
+[2024-01-15T00:12:45.789Z] INFO: Payment request received - ID: PAY-2024-001235
+[2024-01-15T00:12:45.890Z] INFO: Processing payment method: pix
+[2024-01-15T00:12:46.012Z] INFO: Payment processed successfully - ID: PAY-2024-001235
+[2024-01-15T01:23:34.567Z] INFO: Health check endpoint accessed
+[2024-01-15T02:15:12.890Z] INFO: Payment request received - ID: PAY-2024-001236
+[2024-01-15T02:15:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T02:15:13.456Z] INFO: Payment processed successfully - ID: PAY-2024-001236
+[2024-01-15T03:45:23.789Z] WARN: Slow query detected - query took 450ms
+[2024-01-15T04:12:34.012Z] INFO: Payment request received - ID: PAY-2024-001237
+[2024-01-15T04:12:34.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T04:12:34.567Z] INFO: Payment processed successfully - ID: PAY-2024-001237
+[2024-01-15T05:30:45.890Z] INFO: Scheduled job executed - cleanup_expired_sessions
+[2024-01-15T06:15:12.123Z] INFO: Payment request received - ID: PAY-2024-001238
+[2024-01-15T06:15:12.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T06:15:12.678Z] INFO: Payment processed successfully - ID: PAY-2024-001238
+[2024-01-15T07:22:34.901Z] WARN: Connection pool usage at 80% - 8/10 connections active
+[2024-01-15T08:10:23.234Z] INFO: Payment request received - ID: PAY-2024-001239
+[2024-01-15T08:10:23.456Z] INFO: Processing payment method: pix
+[2024-01-15T08:10:23.789Z] INFO: Payment processed successfully - ID: PAY-2024-001239
+[2024-01-15T09:45:12.012Z] INFO: Payment request received - ID: PAY-2024-001240
+[2024-01-15T09:45:12.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T09:45:12.678Z] INFO: Payment processed successfully - ID: PAY-2024-001240
+[2024-01-15T10:30:45.890Z] INFO: Health check endpoint accessed
+[2024-01-15T11:15:23.123Z] INFO: Payment request received - ID: PAY-2024-001241
+[2024-01-15T11:15:23.456Z] INFO: Processing payment method: credit_card
+[2024-01-15T11:15:23.789Z] INFO: Payment processed successfully - ID: PAY-2024-001241
+[2024-01-15T12:00:12.234Z] WARN: Slow query detected - query took 380ms
+[2024-01-15T12:45:34.567Z] INFO: Payment request received - ID: PAY-2024-001242
+[2024-01-15T12:45:34.890Z] INFO: Processing payment method: debit_card
+[2024-01-15T12:45:35.123Z] INFO: Payment processed successfully - ID: PAY-2024-001242
+[2024-01-15T13:20:45.456Z] INFO: Payment request received - ID: PAY-2024-001243
+[2024-01-15T13:20:45.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T13:20:46.012Z] INFO: Payment processed successfully - ID: PAY-2024-001243
+[2024-01-15T13:45:23.234Z] WARN: Connection pool usage at 85% - 8.5/10 connections active
+[2024-01-15T14:00:12.567Z] INFO: Payment request received - ID: PAY-2024-001244
+[2024-01-15T14:00:12.890Z] INFO: Processing payment method: pix
+[2024-01-15T14:00:13.123Z] INFO: Payment processed successfully - ID: PAY-2024-001244
+[2024-01-15T14:10:34.456Z] INFO: Payment request received - ID: PAY-2024-001245
+[2024-01-15T14:10:34.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:10:35.012Z] INFO: Payment processed successfully - ID: PAY-2024-001245
+[2024-01-15T14:15:23.234Z] INFO: Payment request received - ID: PAY-2024-001246
+[2024-01-15T14:15:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:15:24.890Z] WARN: Database query took longer than expected - 520ms
+[2024-01-15T14:15:25.123Z] INFO: Payment processed successfully - ID: PAY-2024-001246
+[2024-01-15T14:20:45.456Z] INFO: Payment request received - ID: PAY-2024-001247
+[2024-01-15T14:20:45.789Z] INFO: Processing payment method: debit_card
+[2024-01-15T14:20:46.234Z] WARN: Database query took longer than expected - 480ms
+[2024-01-15T14:20:46.567Z] INFO: Payment processed successfully - ID: PAY-2024-001247
+[2024-01-15T14:23:12.890Z] INFO: Payment request received - ID: PAY-2024-001248
+[2024-01-15T14:23:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:23:15.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:23:15.789Z] ERROR: Failed to process payment - ID: PAY-2024-001248 - Reason: Database connection timeout
+[2024-01-15T14:23:16.012Z] WARN: Retrying payment processing - ID: PAY-2024-001248
+[2024-01-15T14:23:18.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:23:18.567Z] ERROR: Payment processing failed after retry - ID: PAY-2024-001248
+[2024-01-15T14:25:34.890Z] INFO: Payment request received - ID: PAY-2024-001249
+[2024-01-15T14:25:35.123Z] INFO: Processing payment method: pix
+[2024-01-15T14:25:37.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:25:37.789Z] ERROR: Failed to process payment - ID: PAY-2024-001249 - Reason: Database connection timeout
+[2024-01-15T14:26:12.012Z] WARN: Connection pool exhausted - all 10 connections in use
+[2024-01-15T14:26:45.234Z] INFO: Payment request received - ID: PAY-2024-001250
+[2024-01-15T14:26:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:26:48.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:26:49.123Z] ERROR: Failed to process payment - ID: PAY-2024-001250 - Reason: Database connection timeout
+[2024-01-15T14:28:12.456Z] INFO: Payment request received - ID: PAY-2024-001251
+[2024-01-15T14:28:12.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:28:15.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:28:15.345Z] ERROR: Failed to process payment - ID: PAY-2024-001251 - Reason: Database connection timeout
+[2024-01-15T14:30:23.678Z] WARN: Connection pool usage at 100% - all 10 connections active
+[2024-01-15T14:30:45.901Z] INFO: Payment request received - ID: PAY-2024-001252
+[2024-01-15T14:30:46.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T14:30:49.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:30:49.890Z] ERROR: Failed to process payment - ID: PAY-2024-001252 - Reason: Database connection timeout
+[2024-01-15T14:32:12.123Z] INFO: Payment request received - ID: PAY-2024-001253
+[2024-01-15T14:32:12.456Z] INFO: Processing payment method: pix
+[2024-01-15T14:32:15.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:32:16.012Z] ERROR: Failed to process payment - ID: PAY-2024-001253 - Reason: Database connection timeout
+[2024-01-15T14:35:23.345Z] WARN: High latency detected - p95 latency: 4850ms
+[2024-01-15T14:36:45.678Z] INFO: Payment request received - ID: PAY-2024-001254
+[2024-01-15T14:36:46.012Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:36:49.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:36:49.567Z] ERROR: Failed to process payment - ID: PAY-2024-001254 - Reason: Database connection timeout
+[2024-01-15T14:38:12.890Z] INFO: Payment request received - ID: PAY-2024-001255
+[2024-01-15T14:38:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:38:16.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:38:16.789Z] ERROR: Failed to process payment - ID: PAY-2024-001255 - Reason: Database connection timeout
+[2024-01-15T14:40:34.012Z] WARN: Connection pool exhausted - all 10 connections in use, waiting for available connection
+[2024-01-15T14:42:23.234Z] INFO: Payment request received - ID: PAY-2024-001256
+[2024-01-15T14:42:23.567Z] INFO: Processing payment method: debit_card
+[2024-01-15T14:42:26.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:42:27.123Z] ERROR: Failed to process payment - ID: PAY-2024-001256 - Reason: Database connection timeout
+[2024-01-15T14:45:12.456Z] INFO: Payment request received - ID: PAY-2024-001257
+[2024-01-15T14:45:12.789Z] INFO: Processing payment method: pix
+[2024-01-15T14:45:16.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:45:16.345Z] ERROR: Failed to process payment - ID: PAY-2024-001257 - Reason: Database connection timeout
+[2024-01-15T14:48:34.678Z] WARN: Error rate increased to 15% - threshold: 5%
+[2024-01-15T14:50:23.901Z] INFO: Payment request received - ID: PAY-2024-001258
+[2024-01-15T14:50:24.234Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:50:27.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:50:27.890Z] ERROR: Failed to process payment - ID: PAY-2024-001258 - Reason: Database connection timeout
+[2024-01-15T14:52:12.123Z] INFO: Payment request received - ID: PAY-2024-001259
+[2024-01-15T14:52:12.456Z] INFO: Processing payment method: credit_card
+[2024-01-15T14:52:15.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:52:16.012Z] ERROR: Failed to process payment - ID: PAY-2024-001259 - Reason: Database connection timeout
+[2024-01-15T14:55:34.345Z] WARN: Connection pool exhausted - all 10 connections active, 3 requests queued
+[2024-01-15T14:58:23.678Z] INFO: Payment request received - ID: PAY-2024-001260
+[2024-01-15T14:58:24.012Z] INFO: Processing payment method: debit_card
+[2024-01-15T14:58:27.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T14:58:27.567Z] ERROR: Failed to process payment - ID: PAY-2024-001260 - Reason: Database connection timeout
+[2024-01-15T15:00:45.890Z] INFO: Payment request received - ID: PAY-2024-001261
+[2024-01-15T15:00:46.123Z] INFO: Processing payment method: pix
+[2024-01-15T15:00:49.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:00:49.789Z] ERROR: Failed to process payment - ID: PAY-2024-001261 - Reason: Database connection timeout
+[2024-01-15T15:05:12.012Z] WARN: High latency detected - p95 latency: 5200ms
+[2024-01-15T15:10:34.234Z] INFO: Payment request received - ID: PAY-2024-001262
+[2024-01-15T15:10:34.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T15:10:37.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:10:38.123Z] ERROR: Failed to process payment - ID: PAY-2024-001262 - Reason: Database connection timeout
+[2024-01-15T15:15:23.456Z] INFO: Payment request received - ID: PAY-2024-001263
+[2024-01-15T15:15:23.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T15:15:27.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:15:27.345Z] ERROR: Failed to process payment - ID: PAY-2024-001263 - Reason: Database connection timeout
+[2024-01-15T15:20:45.678Z] WARN: Error rate increased to 18% - threshold: 5%
+[2024-01-15T15:25:12.901Z] INFO: Payment request received - ID: PAY-2024-001264
+[2024-01-15T15:25:13.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T15:25:16.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:25:16.890Z] ERROR: Failed to process payment - ID: PAY-2024-001264 - Reason: Database connection timeout
+[2024-01-15T15:30:34.123Z] INFO: Payment request received - ID: PAY-2024-001265
+[2024-01-15T15:30:34.456Z] INFO: Processing payment method: pix
+[2024-01-15T15:30:37.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:30:38.012Z] ERROR: Failed to process payment - ID: PAY-2024-001265 - Reason: Database connection timeout
+[2024-01-15T15:35:23.345Z] WARN: Connection pool usage at 100% - all 10 connections active, 5 requests queued
+[2024-01-15T15:40:12.678Z] INFO: Payment request received - ID: PAY-2024-001266
+[2024-01-15T15:40:13.012Z] INFO: Processing payment method: credit_card
+[2024-01-15T15:40:16.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:40:16.567Z] ERROR: Failed to process payment - ID: PAY-2024-001266 - Reason: Database connection timeout
+[2024-15T15:45:34.890Z] INFO: Payment request received - ID: PAY-2024-001267
+[2024-01-15T15:45:35.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T15:45:38.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:45:38.789Z] ERROR: Failed to process payment - ID: PAY-2024-001267 - Reason: Database connection timeout
+[2024-01-15T15:50:23.012Z] WARN: High latency detected - p95 latency: 5500ms
+[2024-01-15T15:55:12.345Z] INFO: Payment request received - ID: PAY-2024-001268
+[2024-01-15T15:55:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-15T15:55:15.901Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T15:55:16.234Z] ERROR: Failed to process payment - ID: PAY-2024-001268 - Reason: Database connection timeout
+[2024-01-15T16:00:45.567Z] INFO: Payment request received - ID: PAY-2024-001269
+[2024-01-15T16:00:45.890Z] INFO: Processing payment method: pix
+[2024-01-15T16:00:49.123Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:00:49.456Z] ERROR: Failed to process payment - ID: PAY-2024-001269 - Reason: Database connection timeout
+[2024-01-15T16:05:34.789Z] WARN: Error rate increased to 22% - threshold: 5%
+[2024-01-15T16:10:23.012Z] INFO: Payment request received - ID: PAY-2024-001270
+[2024-01-15T16:10:23.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T16:10:26.678Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:10:26.901Z] ERROR: Failed to process payment - ID: PAY-2024-001270 - Reason: Database connection timeout
+[2024-01-15T16:15:12.234Z] INFO: Payment request received - ID: PAY-2024-001271
+[2024-01-15T16:15:12.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T16:15:15.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:15:16.123Z] ERROR: Failed to process payment - ID: PAY-2024-001271 - Reason: Database connection timeout
+[2024-01-15T16:20:45.456Z] WARN: Connection pool exhausted - all 10 connections active, 8 requests queued
+[2024-01-15T16:25:34.789Z] INFO: Payment request received - ID: PAY-2024-001272
+[2024-01-15T16:25:35.012Z] INFO: Processing payment method: debit_card
+[2024-01-15T16:25:38.345Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:25:38.678Z] ERROR: Failed to process payment - ID: PAY-2024-001272 - Reason: Database connection timeout
+[2024-01-15T16:30:23.901Z] INFO: Payment request received - ID: PAY-2024-001273
+[2024-01-15T16:30:24.234Z] INFO: Processing payment method: pix
+[2024-01-15T16:30:27.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:30:27.890Z] ERROR: Failed to process payment - ID: PAY-2024-001273 - Reason: Database connection timeout
+[2024-01-15T16:35:12.123Z] WARN: High latency detected - p95 latency: 5800ms
+[2024-01-15T16:40:45.456Z] INFO: Payment request received - ID: PAY-2024-001274
+[2024-01-15T16:40:45.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T16:40:49.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:40:49.345Z] ERROR: Failed to process payment - ID: PAY-2024-001274 - Reason: Database connection timeout
+[2024-01-15T16:45:34.678Z] INFO: Payment request received - ID: PAY-2024-001275
+[2024-01-15T16:45:34.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T16:45:38.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:45:38.567Z] ERROR: Failed to process payment - ID: PAY-2024-001275 - Reason: Database connection timeout
+[2024-01-15T16:50:23.890Z] WARN: Error rate increased to 25% - threshold: 5%
+[2024-01-15T16:55:12.123Z] INFO: Payment request received - ID: PAY-2024-001276
+[2024-01-15T16:55:12.456Z] INFO: Processing payment method: debit_card
+[2024-01-15T16:55:15.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T16:55:16.012Z] ERROR: Failed to process payment - ID: PAY-2024-001276 - Reason: Database connection timeout
+[2024-01-15T17:00:45.345Z] INFO: Payment request received - ID: PAY-2024-001277
+[2024-01-15T17:00:45.678Z] INFO: Processing payment method: pix
+[2024-01-15T17:00:48.901Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:00:49.234Z] ERROR: Failed to process payment - ID: PAY-2024-001277 - Reason: Database connection timeout
+[2024-01-15T17:05:34.567Z] WARN: Connection pool exhausted - all 10 connections active, 12 requests queued
+[2024-01-15T17:10:23.890Z] INFO: Payment request received - ID: PAY-2024-001278
+[2024-01-15T17:10:24.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T17:10:27.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:10:27.789Z] ERROR: Failed to process payment - ID: PAY-2024-001278 - Reason: Database connection timeout
+[2024-01-15T17:15:12.012Z] INFO: Payment request received - ID: PAY-2024-001279
+[2024-01-15T17:15:12.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T17:15:15.678Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:15:15.901Z] ERROR: Failed to process payment - ID: PAY-2024-001279 - Reason: Database connection timeout
+[2024-01-15T17:20:45.234Z] WARN: High latency detected - p95 latency: 6200ms
+[2024-01-15T17:25:34.567Z] INFO: Payment request received - ID: PAY-2024-001280
+[2024-01-15T17:25:34.890Z] INFO: Processing payment method: debit_card
+[2024-01-15T17:25:38.123Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:25:38.456Z] ERROR: Failed to process payment - ID: PAY-2024-001280 - Reason: Database connection timeout
+[2024-01-15T17:30:23.789Z] INFO: Payment request received - ID: PAY-2024-001281
+[2024-01-15T17:30:24.012Z] INFO: Processing payment method: pix
+[2024-01-15T17:30:27.345Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:30:27.678Z] ERROR: Failed to process payment - ID: PAY-2024-001281 - Reason: Database connection timeout
+[2024-01-15T17:35:12.901Z] WARN: Error rate increased to 28% - threshold: 5%
+[2024-01-15T17:40:45.234Z] INFO: Payment request received - ID: PAY-2024-001282
+[2024-01-15T17:40:45.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T17:40:48.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:40:49.123Z] ERROR: Failed to process payment - ID: PAY-2024-001282 - Reason: Database connection timeout
+[2024-01-15T17:45:34.456Z] INFO: Payment request received - ID: PAY-2024-001283
+[2024-01-15T17:45:34.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T17:45:38.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:45:38.345Z] ERROR: Failed to process payment - ID: PAY-2024-001283 - Reason: Database connection timeout
+[2024-01-15T17:50:23.678Z] WARN: Connection pool exhausted - all 10 connections active, 15 requests queued
+[2024-01-15T17:55:12.901Z] INFO: Payment request received - ID: PAY-2024-001284
+[2024-01-15T17:55:13.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T17:55:16.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T17:55:16.890Z] ERROR: Failed to process payment - ID: PAY-2024-001284 - Reason: Database connection timeout
+[2024-01-15T18:00:45.123Z] INFO: Payment request received - ID: PAY-2024-001285
+[2024-01-15T18:00:45.456Z] INFO: Processing payment method: pix
+[2024-01-15T18:00:48.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:00:49.012Z] ERROR: Failed to process payment - ID: PAY-2024-001285 - Reason: Database connection timeout
+[2024-01-15T18:05:34.345Z] WARN: High latency detected - p95 latency: 6500ms
+[2024-01-15T18:10:23.678Z] INFO: Payment request received - ID: PAY-2024-001286
+[2024-01-15T18:10:23.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T18:10:27.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:10:27.567Z] ERROR: Failed to process payment - ID: PAY-2024-001286 - Reason: Database connection timeout
+[2024-01-15T18:15:12.890Z] INFO: Payment request received - ID: PAY-2024-001287
+[2024-01-15T18:15:13.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T18:15:16.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:15:16.789Z] ERROR: Failed to process payment - ID: PAY-2024-001287 - Reason: Database connection timeout
+[2024-01-15T18:20:45.012Z] WARN: Error rate increased to 30% - threshold: 5%
+[2024-01-15T18:25:34.345Z] INFO: Payment request received - ID: PAY-2024-001288
+[2024-01-15T18:25:34.678Z] INFO: Processing payment method: debit_card
+[2024-01-15T18:25:37.901Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:25:38.234Z] ERROR: Failed to process payment - ID: PAY-2024-001288 - Reason: Database connection timeout
+[2024-01-15T18:30:23.567Z] INFO: Payment request received - ID: PAY-2024-001289
+[2024-01-15T18:30:23.890Z] INFO: Processing payment method: pix
+[2024-01-15T18:30:27.123Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:30:27.456Z] ERROR: Failed to process payment - ID: PAY-2024-001289 - Reason: Database connection timeout
+[2024-01-15T18:35:12.789Z] WARN: Connection pool exhausted - all 10 connections active, 18 requests queued
+[2024-01-15T18:40:45.012Z] INFO: Payment request received - ID: PAY-2024-001290
+[2024-01-15T18:40:45.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T18:40:48.678Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:40:48.901Z] ERROR: Failed to process payment - ID: PAY-2024-001290 - Reason: Database connection timeout
+[2024-01-15T18:45:34.234Z] INFO: Payment request received - ID: PAY-2024-001291
+[2024-01-15T18:45:34.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T18:45:37.890Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:45:38.123Z] ERROR: Failed to process payment - ID: PAY-2024-001291 - Reason: Database connection timeout
+[2024-01-15T18:50:23.456Z] WARN: High latency detected - p95 latency: 6800ms
+[2024-01-15T18:55:12.789Z] INFO: Payment request received - ID: PAY-2024-001292
+[2024-01-15T18:55:13.012Z] INFO: Processing payment method: debit_card
+[2024-01-15T18:55:16.345Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T18:55:16.678Z] ERROR: Failed to process payment - ID: PAY-2024-001292 - Reason: Database connection timeout
+[2024-01-15T19:00:45.901Z] INFO: Payment request received - ID: PAY-2024-001293
+[2024-01-15T19:00:46.234Z] INFO: Processing payment method: pix
+[2024-01-15T19:00:49.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:00:49.890Z] INFO: Payment processed successfully - ID: PAY-2024-001293
+[2024-01-15T19:05:34.123Z] WARN: Error rate decreased to 25% - still above threshold
+[2024-01-15T19:10:23.456Z] INFO: Payment request received - ID: PAY-2024-001294
+[2024-01-15T19:10:23.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T19:10:27.012Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:10:27.345Z] ERROR: Failed to process payment - ID: PAY-2024-001294 - Reason: Database connection timeout
+[2024-01-15T19:15:12.678Z] INFO: Payment request received - ID: PAY-2024-001295
+[2024-01-15T19:15:12.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T19:15:16.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:15:16.567Z] ERROR: Failed to process payment - ID: PAY-2024-001295 - Reason: Database connection timeout
+[2024-01-15T19:20:45.890Z] WARN: Connection pool usage at 95% - 9.5/10 connections active
+[2024-01-15T19:25:34.123Z] INFO: Payment request received - ID: PAY-2024-001296
+[2024-01-15T19:25:34.456Z] INFO: Processing payment method: debit_card
+[2024-01-15T19:25:37.789Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:25:38.012Z] ERROR: Failed to process payment - ID: PAY-2024-001296 - Reason: Database connection timeout
+[2024-01-15T19:30:23.345Z] INFO: Payment request received - ID: PAY-2024-001297
+[2024-01-15T19:30:23.678Z] INFO: Processing payment method: pix
+[2024-01-15T19:30:26.901Z] WARN: Database query took longer than expected - 420ms
+[2024-01-15T19:30:27.234Z] INFO: Payment processed successfully - ID: PAY-2024-001297
+[2024-01-15T19:35:12.567Z] WARN: High latency detected - p95 latency: 5200ms
+[2024-01-15T19:40:45.890Z] INFO: Payment request received - ID: PAY-2024-001298
+[2024-01-15T19:40:46.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T19:40:49.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:40:49.789Z] ERROR: Failed to process payment - ID: PAY-2024-001298 - Reason: Database connection timeout
+[2024-01-15T19:45:34.012Z] INFO: Payment request received - ID: PAY-2024-001299
+[2024-01-15T19:45:34.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T19:45:37.678Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T19:45:37.901Z] ERROR: Failed to process payment - ID: PAY-2024-001299 - Reason: Database connection timeout
+[2024-01-15T19:50:23.234Z] WARN: Error rate decreased to 20% - still above threshold
+[2024-01-15T19:55:12.567Z] INFO: Payment request received - ID: PAY-2024-001300
+[2024-01-15T19:55:12.890Z] INFO: Processing payment method: debit_card
+[2024-01-15T19:55:16.123Z] WARN: Database query took longer than expected - 380ms
+[2024-01-15T19:55:16.456Z] INFO: Payment processed successfully - ID: PAY-2024-001300
+[2024-01-15T20:00:45.789Z] INFO: Payment request received - ID: PAY-2024-001301
+[2024-01-15T20:00:46.012Z] INFO: Processing payment method: pix
+[2024-01-15T20:00:49.345Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T20:00:49.678Z] ERROR: Failed to process payment - ID: PAY-2024-001301 - Reason: Database connection timeout
+[2024-01-15T20:05:34.901Z] WARN: Connection pool usage at 90% - 9/10 connections active
+[2024-01-15T20:10:23.234Z] INFO: Payment request received - ID: PAY-2024-001302
+[2024-01-15T20:10:23.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T20:10:26.890Z] WARN: Database query took longer than expected - 350ms
+[2024-01-15T20:10:27.123Z] INFO: Payment processed successfully - ID: PAY-2024-001302
+[2024-01-15T20:15:12.456Z] INFO: Payment request received - ID: PAY-2024-001303
+[2024-01-15T20:15:12.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T20:15:16.012Z] WARN: Database query took longer than expected - 320ms
+[2024-01-15T20:15:16.345Z] INFO: Payment processed successfully - ID: PAY-2024-001303
+[2024-01-15T20:20:45.678Z] WARN: High latency detected - p95 latency: 4800ms
+[2024-01-15T20:25:34.901Z] INFO: Payment request received - ID: PAY-2024-001304
+[2024-01-15T20:25:35.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T20:25:38.567Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T20:25:38.890Z] ERROR: Failed to process payment - ID: PAY-2024-001304 - Reason: Database connection timeout
+[2024-01-15T20:30:23.123Z] INFO: Payment request received - ID: PAY-2024-001305
+[2024-01-15T20:30:23.456Z] INFO: Processing payment method: pix
+[2024-01-15T20:30:26.789Z] WARN: Database query took longer than expected - 310ms
+[2024-01-15T20:30:27.012Z] INFO: Payment processed successfully - ID: PAY-2024-001305
+[2024-01-15T20:35:12.345Z] WARN: Error rate decreased to 15% - still above threshold
+[2024-01-15T20:40:45.678Z] INFO: Payment request received - ID: PAY-2024-001306
+[2024-01-15T20:40:45.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T20:40:49.234Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T20:40:49.567Z] ERROR: Failed to process payment - ID: PAY-2024-001306 - Reason: Database connection timeout
+[2024-01-15T20:45:34.890Z] INFO: Payment request received - ID: PAY-2024-001307
+[2024-01-15T20:45:35.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T20:45:38.456Z] ERROR: Connection timeout to database - exceeded 5000ms
+[2024-01-15T20:45:38.789Z] ERROR: Failed to process payment - ID: PAY-2024-001307 - Reason: Database connection timeout
+[2024-01-15T20:50:23.012Z] WARN: Connection pool usage at 85% - 8.5/10 connections active
+[2024-01-15T20:55:12.345Z] INFO: Payment request received - ID: PAY-2024-001308
+[2024-01-15T20:55:12.678Z] INFO: Processing payment method: debit_card
+[2024-01-15T20:55:15.901Z] WARN: Database query took longer than expected - 280ms
+[2024-01-15T20:55:16.234Z] INFO: Payment processed successfully - ID: PAY-2024-001308
+[2024-01-15T21:00:45.567Z] INFO: Payment request received - ID: PAY-2024-001309
+[2024-01-15T21:00:45.890Z] INFO: Processing payment method: pix
+[2024-01-15T21:00:49.123Z] WARN: Database query took longer than expected - 270ms
+[2024-01-15T21:00:49.456Z] INFO: Payment processed successfully - ID: PAY-2024-001309
+[2024-01-15T21:05:34.789Z] WARN: High latency detected - p95 latency: 4200ms
+[2024-01-15T21:10:23.012Z] INFO: Payment request received - ID: PAY-2024-001310
+[2024-01-15T21:10:23.345Z] INFO: Processing payment method: credit_card
+[2024-01-15T21:10:26.678Z] WARN: Database query took longer than expected - 250ms
+[2024-01-15T21:10:26.901Z] INFO: Payment processed successfully - ID: PAY-2024-001310
+[2024-01-15T21:15:12.234Z] INFO: Payment request received - ID: PAY-2024-001311
+[2024-01-15T21:15:12.567Z] INFO: Processing payment method: credit_card
+[2024-01-15T21:15:15.890Z] WARN: Database query took longer than expected - 240ms
+[2024-01-15T21:15:16.123Z] INFO: Payment processed successfully - ID: PAY-2024-001311
+[2024-01-15T21:20:45.456Z] WARN: Error rate decreased to 10% - still above threshold
+[2024-01-15T21:25:34.789Z] INFO: Payment request received - ID: PAY-2024-001312
+[2024-01-15T21:25:35.012Z] INFO: Processing payment method: debit_card
+[2024-01-15T21:25:38.345Z] WARN: Database query took longer than expected - 230ms
+[2024-01-15T21:25:38.678Z] INFO: Payment processed successfully - ID: PAY-2024-001312
+[2024-01-15T21:30:23.901Z] INFO: Payment request received - ID: PAY-2024-001313
+[2024-01-15T21:30:24.234Z] INFO: Processing payment method: pix
+[2024-01-15T21:30:27.567Z] WARN: Database query took longer than expected - 220ms
+[2024-01-15T21:30:27.890Z] INFO: Payment processed successfully - ID: PAY-2024-001313
+[2024-01-15T21:35:12.123Z] WARN: Connection pool usage at 75% - 7.5/10 connections active
+[2024-01-15T21:40:45.456Z] INFO: Payment request received - ID: PAY-2024-001314
+[2024-01-15T21:40:45.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T21:40:49.012Z] WARN: Database query took longer than expected - 210ms
+[2024-01-15T21:40:49.345Z] INFO: Payment processed successfully - ID: PAY-2024-001314
+[2024-01-15T21:45:34.678Z] WARN: High latency detected - p95 latency: 3800ms
+[2024-01-15T21:50:23.901Z] INFO: Payment request received - ID: PAY-2024-001315
+[2024-01-15T21:50:24.234Z] INFO: Processing payment method: debit_card
+[2024-01-15T21:50:27.567Z] WARN: Database query took longer than expected - 200ms
+[2024-01-15T21:50:27.890Z] INFO: Payment processed successfully - ID: PAY-2024-001315
+[2024-01-15T21:55:12.123Z] INFO: Payment request received - ID: PAY-2024-001316
+[2024-01-15T21:55:12.456Z] INFO: Processing payment method: pix
+[2024-01-15T21:55:15.789Z] WARN: Database query took longer than expected - 190ms
+[2024-01-15T21:55:16.012Z] INFO: Payment processed successfully - ID: PAY-2024-001316
+[2024-01-15T22:00:45.345Z] WARN: Error rate decreased to 5% - back to normal threshold
+[2024-01-15T22:05:34.678Z] INFO: Payment request received - ID: PAY-2024-001317
+[2024-01-15T22:05:34.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T22:05:38.234Z] WARN: Database query took longer than expected - 180ms
+[2024-01-15T22:05:38.567Z] INFO: Payment processed successfully - ID: PAY-2024-001317
+[2024-01-15T22:10:23.890Z] INFO: Payment request received - ID: PAY-2024-001318
+[2024-01-15T22:10:24.123Z] INFO: Processing payment method: credit_card
+[2024-01-15T22:10:27.456Z] WARN: Database query took longer than expected - 170ms
+[2024-01-15T22:10:27.789Z] INFO: Payment processed successfully - ID: PAY-2024-001318
+[2024-01-15T22:15:12.012Z] WARN: Connection pool usage at 70% - 7/10 connections active
+[2024-01-15T22:20:45.345Z] INFO: Payment request received - ID: PAY-2024-001319
+[2024-01-15T22:20:45.678Z] INFO: Processing payment method: debit_card
+[2024-01-15T22:20:48.901Z] INFO: Payment processed successfully - ID: PAY-2024-001319
+[2024-01-15T22:25:34.234Z] WARN: High latency detected - p95 latency: 3200ms
+[2024-01-15T22:30:23.567Z] INFO: Payment request received - ID: PAY-2024-001320
+[2024-01-15T22:30:23.890Z] INFO: Processing payment method: pix
+[2024-01-15T22:30:27.123Z] INFO: Payment processed successfully - ID: PAY-2024-001320
+[2024-01-15T22:35:12.456Z] INFO: Payment request received - ID: PAY-2024-001321
+[2024-01-15T22:35:12.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T22:35:16.012Z] INFO: Payment processed successfully - ID: PAY-2024-001321
+[2024-01-15T22:40:45.345Z] WARN: High latency detected - p95 latency: 2800ms
+[2024-01-15T22:45:34.678Z] INFO: Payment request received - ID: PAY-2024-001322
+[2024-01-15T22:45:34.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T22:45:38.234Z] INFO: Payment processed successfully - ID: PAY-2024-001322
+[2024-01-15T22:50:23.567Z] WARN: Connection pool usage at 65% - 6.5/10 connections active
+[2024-01-15T22:55:12.890Z] INFO: Payment request received - ID: PAY-2024-001323
+[2024-01-15T22:55:13.123Z] INFO: Processing payment method: debit_card
+[2024-01-15T22:55:16.456Z] INFO: Payment processed successfully - ID: PAY-2024-001323
+[2024-01-15T23:00:45.789Z] WARN: High latency detected - p95 latency: 2500ms
+[2024-01-15T23:05:34.012Z] INFO: Payment request received - ID: PAY-2024-001324
+[2024-01-15T23:05:34.345Z] INFO: Processing payment method: pix
+[2024-01-15T23:05:37.678Z] INFO: Payment processed successfully - ID: PAY-2024-001324
+[2024-01-15T23:10:23.901Z] INFO: Payment request received - ID: PAY-2024-001325
+[2024-01-15T23:10:24.234Z] INFO: Processing payment method: credit_card
+[2024-01-15T23:10:27.567Z] INFO: Payment processed successfully - ID: PAY-2024-001325
+[2024-01-15T23:15:12.890Z] WARN: High latency detected - p95 latency: 2200ms
+[2024-01-15T23:20:45.123Z] INFO: Payment request received - ID: PAY-2024-001326
+[2024-01-15T23:20:45.456Z] INFO: Processing payment method: credit_card
+[2024-01-15T23:20:48.789Z] INFO: Payment processed successfully - ID: PAY-2024-001326
+[2024-01-15T23:25:34.012Z] WARN: Connection pool usage at 60% - 6/10 connections active
+[2024-01-15T23:30:23.345Z] INFO: Payment request received - ID: PAY-2024-001327
+[2024-01-15T23:30:23.678Z] INFO: Processing payment method: debit_card
+[2024-01-15T23:30:26.901Z] INFO: Payment processed successfully - ID: PAY-2024-001327
+[2024-01-15T23:35:12.234Z] WARN: High latency detected - p95 latency: 2100ms
+[2024-01-15T23:40:45.567Z] INFO: Payment request received - ID: PAY-2024-001328
+[2024-01-15T23:40:45.890Z] INFO: Processing payment method: pix
+[2024-01-15T23:40:49.123Z] INFO: Payment processed successfully - ID: PAY-2024-001328
+[2024-01-15T23:45:34.456Z] INFO: Payment request received - ID: PAY-2024-001329
+[2024-01-15T23:45:34.789Z] INFO: Processing payment method: credit_card
+[2024-01-15T23:45:38.012Z] INFO: Payment processed successfully - ID: PAY-2024-001329
+[2024-01-15T23:50:23.345Z] WARN: High latency detected - p95 latency: 2050ms
+[2024-01-15T23:55:12.678Z] INFO: Payment request received - ID: PAY-2024-001330
+[2024-01-15T23:55:12.901Z] INFO: Processing payment method: credit_card
+[2024-01-15T23:55:16.234Z] INFO: Payment processed successfully - ID: PAY-2024-001330
+

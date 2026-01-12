@@ -1,0 +1,120 @@
+[
+  {
+    "incident_id": "INC-2024-000123",
+    "date": "2024-01-08",
+    "time_start": "2024-01-08T14:15:00Z",
+    "time_end": "2024-01-08T15:30:00Z",
+    "duration_minutes": 75,
+    "severity": "medium",
+    "service": "payment-api",
+    "title": "Increased latency during peak hours",
+    "description": "Latency p95 increased to 280ms during afternoon peak hours (14h-15h). No errors reported, but slow response times.",
+    "symptoms": [
+      "Latency p95: 280ms (normal: 200ms)",
+      "Connection pool usage: 85%",
+      "Slow database queries: 200-250ms"
+    ],
+    "root_cause": "High connection pool usage during peak traffic. Database queries taking longer than usual.",
+    "resolution": "No action taken - resolved automatically as traffic decreased. Connection pool returned to normal levels.",
+    "impact": "Minor - some users experienced slower response times, no failed transactions",
+    "recurrence_pattern": "Occurred during afternoon peak hours (14h-15h)",
+    "similar_incidents": ["INC-2024-000098", "INC-2024-000076"]
+  },
+  {
+    "incident_id": "INC-2024-000098",
+    "date": "2024-01-03",
+    "time_start": "2024-01-03T14:20:00Z",
+    "time_end": "2024-01-03T15:15:00Z",
+    "duration_minutes": 55,
+    "severity": "medium",
+    "service": "payment-api",
+    "title": "Latency spike during afternoon peak",
+    "description": "Latency p95 increased to 320ms during afternoon hours. Connection pool reached 90% usage.",
+    "symptoms": [
+      "Latency p95: 320ms",
+      "Connection pool usage: 90%",
+      "Slow database queries: 250-300ms"
+    ],
+    "root_cause": "High traffic volume during peak hours causing connection pool exhaustion",
+    "resolution": "Automatic resolution as traffic decreased. No manual intervention required.",
+    "impact": "Minor - slower response times, no errors",
+    "recurrence_pattern": "Afternoon peak hours (14h-15h)",
+    "similar_incidents": ["INC-2024-000123", "INC-2024-000076"]
+  },
+  {
+    "incident_id": "INC-2024-000076",
+    "date": "2023-12-28",
+    "time_start": "2023-12-28T14:10:00Z",
+    "time_end": "2023-12-28T15:45:00Z",
+    "duration_minutes": 95,
+    "severity": "high",
+    "service": "payment-api",
+    "title": "Database connection timeouts",
+    "description": "Intermittent database connection timeouts during peak hours. Some payment requests failed with timeout errors.",
+    "symptoms": [
+      "Connection timeout errors: 15 occurrences",
+      "Latency p95: 450ms",
+      "Connection pool exhausted: 100%",
+      "Error rate: 3.2%"
+    ],
+    "root_cause": "Connection pool size insufficient for peak traffic. Database connections not being released quickly enough.",
+    "resolution": "Increased connection pool from 8 to 10 connections. Added connection timeout retry logic.",
+    "impact": "Medium - 15 failed payment requests, approximately 50 users affected",
+    "recurrence_pattern": "Afternoon peak hours (14h-16h), Friday",
+    "similar_incidents": ["INC-2024-000098", "INC-2024-000123"],
+    "actions_taken": [
+      "Increased connection pool size",
+      "Added retry logic for timeouts",
+      "Implemented connection pool monitoring"
+    ]
+  },
+  {
+    "incident_id": "INC-2024-000045",
+    "date": "2023-12-20",
+    "time_start": "2023-12-20T20:15:00Z",
+    "time_end": "2023-12-20T21:30:00Z",
+    "duration_minutes": 75,
+    "severity": "medium",
+    "service": "payment-api",
+    "title": "Evening peak latency increase",
+    "description": "Latency increased during evening peak hours (20h-21h). Similar pattern to afternoon incidents.",
+    "symptoms": [
+      "Latency p95: 380ms",
+      "Connection pool usage: 88%",
+      "Slow database queries: 220-280ms"
+    ],
+    "root_cause": "Peak traffic during evening hours causing connection pool pressure",
+    "resolution": "Resolved automatically as traffic decreased",
+    "impact": "Minor - slower response times",
+    "recurrence_pattern": "Evening peak hours (20h-21h)",
+    "similar_incidents": ["INC-2024-000098"]
+  },
+  {
+    "incident_id": "INC-2024-000032",
+    "date": "2023-12-15",
+    "time_start": "2023-12-15T14:30:00Z",
+    "time_end": "2023-12-15T16:00:00Z",
+    "duration_minutes": 90,
+    "severity": "high",
+    "service": "payment-api",
+    "title": "Database connection pool exhaustion",
+    "description": "Connection pool exhausted causing multiple timeout errors. Higher impact than previous incidents.",
+    "symptoms": [
+      "Connection pool exhausted: 100%",
+      "Connection timeout errors: 42 occurrences",
+      "Latency p95: 520ms",
+      "Error rate: 5.8%"
+    ],
+    "root_cause": "Connection pool size insufficient. Long-running database queries holding connections.",
+    "resolution": "Manually restarted connection pool. Increased pool size from 8 to 10. Added query timeout limits.",
+    "impact": "High - 42 failed payment requests, approximately 150 users affected",
+    "recurrence_pattern": "Friday afternoon (14h-16h)",
+    "similar_incidents": ["INC-2024-000076"],
+    "actions_taken": [
+      "Increased connection pool size",
+      "Added query timeout limits",
+      "Implemented connection pool monitoring alerts"
+    ]
+  }
+]
+
